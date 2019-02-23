@@ -14,7 +14,7 @@ Interview assignment submission to 'Koinex' by Siddharth Paneri, for the positio
 
 
 ### App screenshots -
-<img src = "https://github.com/siddharth-paneri/Koinex-iOS-Assignment/blob/master/Images/IMG_1.png" width="200"/>    <img src = "https://github.com/siddharth-paneri/Koinex-iOS-Assignment/blob/master/Images/IMG_2.png" width="200"/>    <img src = "https://github.com/siddharth-paneri/Koinex-iOS-Assignment/blob/master/Images/IMG_3.png" width="200"/>    <img src = "https://github.com/siddharth-paneri/Koinex-iOS-Assignment/blob/master/Images/IMG_4.png" width="200"/>
+<img src = "https://github.com/siddharth-paneri/Koinex-iOS-Assignment/blob/master/Images/IMG_1.PNG" width="200"/> <img src = "https://github.com/siddharth-paneri/Koinex-iOS-Assignment/blob/master/Images/IMG_2.PNG" width="200"/> <img src = "https://github.com/siddharth-paneri/Koinex-iOS-Assignment/blob/master/Images/IMG_3.PNG" width="200"/> <img src = "https://github.com/siddharth-paneri/Koinex-iOS-Assignment/blob/master/Images/IMG_4.PNG" width="200"/>
  
 
 
