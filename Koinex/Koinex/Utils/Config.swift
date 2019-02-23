@@ -10,7 +10,7 @@ import Foundation
 
 
 let API_BASE_URL = "https://koinex.in/api"
-let PollingTimeInterval: TimeInterval = 10.0
+let PollingTimeInterval: TimeInterval = 60.0
 let PollingMaxCount: Int = 20
 let decimalFormat: String = ".3"
 let NOTIF_APP_INACTIVE = "ApplicatinWillResignActive"
