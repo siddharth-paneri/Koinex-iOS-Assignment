@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		322FA12E2221583300CEA298 /* KoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B3B85221FCA390022BBE4 /* KoinModel.swift */; };
+		322FA12F22215B4E00CEA298 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B3B8B221FEBF90022BBE4 /* Enums.swift */; };
+		351B3B5B221FC9890022BBE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B3B5A221FC9890022BBE4 /* AppDelegate.swift */; };
+		351B3B60221FC9890022BBE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351B3B5E221FC9890022BBE4 /* Main.storyboard */; };
+		351B3B62221FC98C0022BBE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 351B3B61221FC98C0022BBE4 /* Assets.xcassets */; };
+		351B3B65221FC98C0022BBE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351B3B63221FC98C0022BBE4 /* LaunchScreen.storyboard */; };
+		351B3B70221FC98C0022BBE4 /* KoinexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B3B6F221FC98C0022BBE4 /* KoinexTests.swift */; };
+		351B3B80221FCA030022BBE4 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B3B7F221FCA030022BBE4 /* Config.swift */; };
+		351B3B82221FCA1C0022BBE4 /* KoinListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B3B81221FCA1C0022BBE4 /* KoinListViewController.swift */; };
+		351B3B84221FCA290022BBE4 /* KoinStatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B3B83221FCA290022BBE4 /* KoinStatsViewController.swift */; };
+		351B3B86221FCA390022BBE4 /* KoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B3B85221FCA390022BBE4 /* KoinModel.swift */; };
+		351B3B88221FCA440022BBE4 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B3B87221FCA440022BBE4 /* DataProvider.swift */; };
+		351B3B8A221FCA4F0022BBE4 /* CommsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B3B89221FCA4F0022BBE4 /* CommsProvider.swift */; };
+		351B3B8C221FEBF90022BBE4 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B3B8B221FEBF90022BBE4 /* Enums.swift */; };
+		351B3B8E221FEC110022BBE4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B3B8D221FEC110022BBE4 /* Extensions.swift */; };
+		351B3B92221FF6200022BBE4 /* KoinListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B3B91221FF6200022BBE4 /* KoinListViewModel.swift */; };
+		351B3B94221FF62F0022BBE4 /* KoinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B3B93221FF62F0022BBE4 /* KoinViewModel.swift */; };
+		351B3B96221FFD1E0022BBE4 /* SuperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B3B95221FFD1E0022BBE4 /* SuperViewController.swift */; };
+		351B3B9822200A4F0022BBE4 /* Polling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B3B9722200A4F0022BBE4 /* Polling.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		351B3B6C221FC98C0022BBE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351B3B4F221FC9890022BBE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 351B3B56221FC9890022BBE4;
+			remoteInfo = Koinex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		351B3B57221FC9890022BBE4 /* Koinex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koinex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		351B3B5A221FC9890022BBE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		351B3B5F221FC9890022BBE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		351B3B61221FC98C0022BBE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		351B3B64221FC98C0022BBE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		351B3B66221FC98C0022BBE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		351B3B6B221FC98C0022BBE4 /* KoinexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoinexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		351B3B6F221FC98C0022BBE4 /* KoinexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoinexTests.swift; sourceTree = "<group>"; };
+		351B3B71221FC98C0022BBE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		351B3B7F221FCA030022BBE4 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		351B3B81221FCA1C0022BBE4 /* KoinListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoinListViewController.swift; sourceTree = "<group>"; };
+		351B3B83221FCA290022BBE4 /* KoinStatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoinStatsViewController.swift; sourceTree = "<group>"; };
+		351B3B85221FCA390022BBE4 /* KoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoinModel.swift; sourceTree = "<group>"; };
+		351B3B87221FCA440022BBE4 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		351B3B89221FCA4F0022BBE4 /* CommsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommsProvider.swift; sourceTree = "<group>"; };
+		351B3B8B221FEBF90022BBE4 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		351B3B8D221FEC110022BBE4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		351B3B91221FF6200022BBE4 /* KoinListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoinListViewModel.swift; sourceTree = "<group>"; };
+		351B3B93221FF62F0022BBE4 /* KoinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoinViewModel.swift; sourceTree = "<group>"; };
+		351B3B95221FFD1E0022BBE4 /* SuperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperViewController.swift; sourceTree = "<group>"; };
+		351B3B9722200A4F0022BBE4 /* Polling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polling.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		351B3B54221FC9890022BBE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351B3B68221FC98C0022BBE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		351B3B4E221FC9890022BBE4 = {
+			isa = PBXGroup;
+			children = (
+				351B3B59221FC9890022BBE4 /* Koinex */,
+				351B3B6E221FC98C0022BBE4 /* KoinexTests */,
+				351B3B58221FC9890022BBE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		351B3B58221FC9890022BBE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				351B3B57221FC9890022BBE4 /* Koinex.app */,
+				351B3B6B221FC98C0022BBE4 /* KoinexTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		351B3B59221FC9890022BBE4 /* Koinex */ = {
+			isa = PBXGroup;
+			children = (
+				351B3B5A221FC9890022BBE4 /* AppDelegate.swift */,
+				351B3B7D221FC9E50022BBE4 /* Comms */,
+				351B3B7E221FC9E50022BBE4 /* Data */,
+				351B3B90221FF6040022BBE4 /* ViewModel */,
+				351B3B7C221FC9E50022BBE4 /* Model */,
+				351B3B7A221FC9E50022BBE4 /* Utils */,
+				351B3B7B221FC9E50022BBE4 /* View */,
+				351B3B5E221FC9890022BBE4 /* Main.storyboard */,
+				351B3B61221FC98C0022BBE4 /* Assets.xcassets */,
+				351B3B63221FC98C0022BBE4 /* LaunchScreen.storyboard */,
+				351B3B66221FC98C0022BBE4 /* Info.plist */,
+			);
+			path = Koinex;
+			sourceTree = "<group>";
+		};
+		351B3B6E221FC98C0022BBE4 /* KoinexTests */ = {
+			isa = PBXGroup;
+			children = (
+				351B3B6F221FC98C0022BBE4 /* KoinexTests.swift */,
+				351B3B71221FC98C0022BBE4 /* Info.plist */,
+			);
+			path = KoinexTests;
+			sourceTree = "<group>";
+		};
+		351B3B7A221FC9E50022BBE4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				351B3B7F221FCA030022BBE4 /* Config.swift */,
+				351B3B8B221FEBF90022BBE4 /* Enums.swift */,
+				351B3B8D221FEC110022BBE4 /* Extensions.swift */,
+				351B3B9722200A4F0022BBE4 /* Polling.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		351B3B7B221FC9E50022BBE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				351B3B81221FCA1C0022BBE4 /* KoinListViewController.swift */,
+				351B3B83221FCA290022BBE4 /* KoinStatsViewController.swift */,
+				351B3B95221FFD1E0022BBE4 /* SuperViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		351B3B7C221FC9E50022BBE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				351B3B85221FCA390022BBE4 /* KoinModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		351B3B7D221FC9E50022BBE4 /* Comms */ = {
+			isa = PBXGroup;
+			children = (
+				351B3B89221FCA4F0022BBE4 /* CommsProvider.swift */,
+			);
+			path = Comms;
+			sourceTree = "<group>";
+		};
+		351B3B7E221FC9E50022BBE4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				351B3B87221FCA440022BBE4 /* DataProvider.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		351B3B90221FF6040022BBE4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				351B3B91221FF6200022BBE4 /* KoinListViewModel.swift */,
+				351B3B93221FF62F0022BBE4 /* KoinViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		351B3B56221FC9890022BBE4 /* Koinex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 351B3B74221FC98C0022BBE4 /* Build configuration list for PBXNativeTarget "Koinex" */;
+			buildPhases = (
+				351B3B53221FC9890022BBE4 /* Sources */,
+				351B3B54221FC9890022BBE4 /* Frameworks */,
+				351B3B55221FC9890022BBE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Koinex;
+			productName = Koinex;
+			productReference = 351B3B57221FC9890022BBE4 /* Koinex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		351B3B6A221FC98C0022BBE4 /* KoinexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 351B3B77221FC98C0022BBE4 /* Build configuration list for PBXNativeTarget "KoinexTests" */;
+			buildPhases = (
+				351B3B67221FC98C0022BBE4 /* Sources */,
+				351B3B68221FC98C0022BBE4 /* Frameworks */,
+				351B3B69221FC98C0022BBE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				351B3B6D221FC98C0022BBE4 /* PBXTargetDependency */,
+			);
+			name = KoinexTests;
+			productName = KoinexTests;
+			productReference = 351B3B6B221FC98C0022BBE4 /* KoinexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		351B3B4F221FC9890022BBE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Koinex;
+				TargetAttributes = {
+					351B3B56221FC9890022BBE4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					351B3B6A221FC98C0022BBE4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 351B3B56221FC9890022BBE4;
+					};
+				};
+			};
+			buildConfigurationList = 351B3B52221FC9890022BBE4 /* Build configuration list for PBXProject "Koinex" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 351B3B4E221FC9890022BBE4;
+			productRefGroup = 351B3B58221FC9890022BBE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				351B3B56221FC9890022BBE4 /* Koinex */,
+				351B3B6A221FC98C0022BBE4 /* KoinexTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		351B3B55221FC9890022BBE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351B3B65221FC98C0022BBE4 /* LaunchScreen.storyboard in Resources */,
+				351B3B62221FC98C0022BBE4 /* Assets.xcassets in Resources */,
+				351B3B60221FC9890022BBE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351B3B69221FC98C0022BBE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		351B3B53221FC9890022BBE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351B3B8A221FCA4F0022BBE4 /* CommsProvider.swift in Sources */,
+				351B3B96221FFD1E0022BBE4 /* SuperViewController.swift in Sources */,
+				351B3B84221FCA290022BBE4 /* KoinStatsViewController.swift in Sources */,
+				351B3B86221FCA390022BBE4 /* KoinModel.swift in Sources */,
+				351B3B88221FCA440022BBE4 /* DataProvider.swift in Sources */,
+				351B3B8E221FEC110022BBE4 /* Extensions.swift in Sources */,
+				351B3B5B221FC9890022BBE4 /* AppDelegate.swift in Sources */,
+				351B3B80221FCA030022BBE4 /* Config.swift in Sources */,
+				351B3B8C221FEBF90022BBE4 /* Enums.swift in Sources */,
+				351B3B82221FCA1C0022BBE4 /* KoinListViewController.swift in Sources */,
+				351B3B9822200A4F0022BBE4 /* Polling.swift in Sources */,
+				351B3B92221FF6200022BBE4 /* KoinListViewModel.swift in Sources */,
+				351B3B94221FF62F0022BBE4 /* KoinViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351B3B67221FC98C0022BBE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322FA12E2221583300CEA298 /* KoinModel.swift in Sources */,
+				322FA12F22215B4E00CEA298 /* Enums.swift in Sources */,
+				351B3B70221FC98C0022BBE4 /* KoinexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		351B3B6D221FC98C0022BBE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 351B3B56221FC9890022BBE4 /* Koinex */;
+			targetProxy = 351B3B6C221FC98C0022BBE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		351B3B5E221FC9890022BBE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				351B3B5F221FC9890022BBE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		351B3B63221FC98C0022BBE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				351B3B64221FC98C0022BBE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		351B3B72221FC98C0022BBE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		351B3B73221FC98C0022BBE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		351B3B75221FC98C0022BBE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9SU9AVG63;
+				INFOPLIST_FILE = Koinex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siddharth.KoinexApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		351B3B76221FC98C0022BBE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9SU9AVG63;
+				INFOPLIST_FILE = Koinex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siddharth.KoinexApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		351B3B78221FC98C0022BBE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9SU9AVG63;
+				INFOPLIST_FILE = KoinexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siddharth.KoinexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Koinex.app/Koinex";
+			};
+			name = Debug;
+		};
+		351B3B79221FC98C0022BBE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9SU9AVG63;
+				INFOPLIST_FILE = KoinexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siddharth.KoinexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Koinex.app/Koinex";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		351B3B52221FC9890022BBE4 /* Build configuration list for PBXProject "Koinex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351B3B72221FC98C0022BBE4 /* Debug */,
+				351B3B73221FC98C0022BBE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		351B3B74221FC98C0022BBE4 /* Build configuration list for PBXNativeTarget "Koinex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351B3B75221FC98C0022BBE4 /* Debug */,
+				351B3B76221FC98C0022BBE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		351B3B77221FC98C0022BBE4 /* Build configuration list for PBXNativeTarget "KoinexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351B3B78221FC98C0022BBE4 /* Debug */,
+				351B3B79221FC98C0022BBE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 351B3B4F221FC9890022BBE4 /* Project object */;
+}
